@@ -18,6 +18,18 @@ public class Triangle13 {
             System.out.println();
             i++;
         }
+        
+        i = n;
+        while (i >= 1) {
+            // System.out.print("[i=" + i + "]");  // debug sementara
+            int j = 0;
+            while (j < i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i--;
+        }
         sc.close();
     }
 }
