@@ -19,7 +19,8 @@ public class Tugas113 {
                 System.out.println();
             }
             System.out.println("Total angka tercetak: " + totalAngka);
-
         }
+
+        sc.close();
     }
 }
